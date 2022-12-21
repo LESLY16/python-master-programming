@@ -1,5 +1,7 @@
 from http.server import BaseHTTPRequestHandler, HTTPServer
 
+#BaseHTTPRequestHandler parameter is very important
+
 class HTTPServer_RequestHandler(BaseHTTPRequestHandler):
     def do_GET(self):
         self.send_response(200)
