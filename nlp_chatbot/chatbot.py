@@ -66,7 +66,7 @@ class ChatBot:
             },
             'help': {
                 'patterns': [
-                    r'\b(help|assist|support|guide)\b',
+                    r'\b(help|assist|support|guide|assistance)\b',
                 ],
                 'responses': [
                     "I can help you with various topics! You can ask me about:\n"

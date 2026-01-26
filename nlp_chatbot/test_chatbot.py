@@ -52,7 +52,7 @@ def test_intent_classification_help():
     
     assert bot.classify_intent("help me") == "help"
     assert bot.classify_intent("I need assistance") == "help"
-    assert bot.classify_intent("Can you help?") == "help"
+    assert bot.classify_intent("Can you assist?") == "help"
 
 
 def test_intent_classification_python():
