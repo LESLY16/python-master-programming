@@ -1,0 +1,13 @@
+# NLP Chat Bot Dependencies
+# Note: This chatbot uses a lightweight, rule-based approach that doesn't require
+# heavy ML libraries. For production use, consider adding:
+# - transformers>=4.30.0 (for advanced NLP models)
+# - torch>=2.0.0 (for transformer models)
+# - sentencepiece>=0.1.99 (for tokenization)
+
+# Core dependencies (none required - uses Python standard library only)
+# The implementation uses regex and rule-based matching for lightweight operation
+
+# Optional: For advanced features
+# transformers>=4.30.0
+# torch>=2.0.0
