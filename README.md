@@ -143,10 +143,15 @@ self.intents['your_intent'] = {
 
 ### Testing
 
-Run the test suite:
+Run the chatbot test suite:
+```bash
+pytest nlp_chatbot/test_chatbot.py -v
+```
+
+Run existing math function tests:
 ```bash
 cd "python tests"
-pytest test_math_func.py
+pytest test_math_func.py -v
 ```
 
 ### Architecture
